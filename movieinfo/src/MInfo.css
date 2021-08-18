@@ -32,23 +32,25 @@
 body{
     width : 100%;
     height : 100%;
+    margin : 0;
 }
 
-.Movie_Box1{
+.MovieInfo_Box1{
     width : 100%;
     height : 395px;
     background-color : var(--darkgray-color);
     color : white;
 }
 
-.Movie_Image, #p_t{
+/* box1부분 영화 화면 선명도 */
+.Movie_Image, #p_t{   
     opacity : 0.5;
 }
 
-.Movie_Box2{
+.MovieInfo_Box2{
     position : relative;
     height : 240px;
-    border : 3px solid yellow; 
+    /* border : 3px solid yellow;  */
 }
 
 .MoviePoster{
@@ -139,7 +141,7 @@ hr {
     padding : var(--infoside-padding);
 }
 
-.Movie_Box3{
+.MovieInfo_Box3{
     position :relative;
     height: 1000px;
     margin : 0 ;
